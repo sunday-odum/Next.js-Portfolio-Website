@@ -2,7 +2,7 @@ const portfolio = [
   {
     id: "01",
     title: "Modern Exercise app",
-    img: "/images/portfolio-01.jpg",
+    img: "/images/portfolio-01.png",
     category: "Web app",
     keyword: ["Reactjs", "Api", "MaterialUI"],
     liveUrl: "https://sgym.netlify.app/",
@@ -11,7 +11,7 @@ const portfolio = [
   {
     id: "02",
     title: "ecommerce website",
-    img: "/images/portfolio-02.jpg",
+    img: "/images/portfolio-02.png",
     category: "Web app",
     keyword: ["Nextjs", "Tailwind", "MongoDB"],
     liveUrl: "https://amazona-swart.vercel.app/",
@@ -20,7 +20,7 @@ const portfolio = [
   {
     id: "03",
     title: "cryptocurrency app",
-    img: "/images/portfolio-03.jpg",
+    img: "/images/portfolio-03.png",
     category: "Web app",
     keyword: ["Reactjs", "Redux", "Ant-design"],
     liveUrl: "https://cryptoanalytics.netlify.app/",
@@ -29,7 +29,7 @@ const portfolio = [
   {
     id: "04",
     title: "Real Estate Website",
-    img: "/images/portfolio-04.jpg",
+    img: "/images/portfolio-04.png",
     category: "Web app",
     keyword: ["PHP", "Wordpress"],
     liveUrl: "https://sunvalleyskywayresources.com/",
@@ -37,20 +37,20 @@ const portfolio = [
 
   {
     id: "05",
-    title: "Pet Adoption website",
-    img: "/images/portfolio-05.jpg",
+    title: "Modern Bank website",
+    img: "/images/portfolio-05.png",
     category: "Web app",
-    keyword: ["Reactjs", "API"],
-    liveUrl: "https://github.com/sunday-odum/adopt-me",
+    keyword: ["Reactjs", "API", "Tailwind"],
+    liveUrl: "https://hobank.netlify.app",
   },
 
   {
     id: "06",
-    title: "Blog Application",
-    img: "/images/portfolio-06.jpg",
+    title: "Media App(Youtube Clone)",
+    img: "/images/portfolio-06.png",
     category: "Web app",
-    keyword: ["Laravel", "App"],
-    liveUrl: "https://github.com/sunday-odum/blog-application",
+    keyword: ["Reactjs", "MUI" , "API"],
+    liveUrl: "https://sdmedia.netlify.app",
   },
 
   {
