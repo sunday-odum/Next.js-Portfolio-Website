@@ -39,6 +39,12 @@ const About = () => {
                   </span>
                   Full Software Development LifeCycle
                 </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                 Deadline Adherence
+                </h6>
               </div>
 
               <div>
@@ -55,15 +61,6 @@ const About = () => {
                   </span>
                  Critical Thinking
                 </h6>
-              </div>
-              <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-               Deadline Adherence
-                </h6>
-
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
@@ -71,6 +68,7 @@ const About = () => {
                  Time Management
                 </h6>
               </div>
+              
             </div>
 
             <div className="mt-5">
