@@ -85,7 +85,7 @@ const About = () => {
 
             <div className=" d-flex align-items-center gap-5">
               <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                <h6 className=" d-flex align-items-center gap-2 mt-2 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
@@ -102,11 +102,8 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                 Tailwind and Material UI
+                 Tailwind/Material UI
                 </h6>
-              </div>
-
-              <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
@@ -118,7 +115,7 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                 HTML/CSS
+                 HTML/CSS/Figma
                 </h6>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
