@@ -37,7 +37,7 @@ const Contact = () => {
                 <p>+2348061517238</p>
               </li>
             </ul>
-  
+             <h5 className="mt-4 mb-4">Social Link</h5>
             <div className={`${classes.social__links}`}>
               <Link href="#">
                 <i className="ri-youtube-line"></i>

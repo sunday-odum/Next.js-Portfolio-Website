@@ -29,12 +29,15 @@ const Services = () => {
             <SectionSubtitle subtitle="What I do" />
             <h3 className="mb-4">Experience</h3>
             <p>
-Designed and developed custom highly interactive websites/web applications using content management systems and popular MVC frameworks.<br/>
-Installed and configured hypertext transfer protocol (HTTP) servers and associated operating systems.<br/>
-Developed databases that supported Web applications and Web sites. <br/>
-Wrote supporting code for web applications and websites.<br/>
-Developing complex and highly interactive web applications using web technologies <br/>
-Developing cross platform mobile and desktop apps using latest application development standards and tools.<br/>
+❖Designed and developed custom highly interactive websites/web applications using Javascript frameworks and popular MVC frameworks.<br/>
+❖Designed and developed Modern Media Application in React JS,Material UI 5 and RapidAPI.<br/>
+❖I transformed a figma Design to fully mobile and Desktop Responsive Bank Web Application with React JS and Tailwind.<br/>
+❖I built an ecommerce website using Nextjs,Tailwind, MongoDB and paypal in couse of the project i designed a responsive web template,
+  a user friendly frontend, and developed a scalable backend with MongoDB Atlas, finally i use online Cloud services to upload images,
+  online payment gateway, and website deployment on vercel.<br/>
+❖Installed and configured hypertext transfer protocol (HTTP) servers and associated operating systems.<br/>
+❖Social Network- open source project.<br/>
+
             </p>
           </Col>
         </Row>

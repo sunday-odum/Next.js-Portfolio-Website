@@ -4,8 +4,8 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/img-01.png";
-import img02 from "../../public/images/img-02.png";
+// import img01 from "../../public/images/img-01.png";
+// import img02 from "../../public/images/img-02.png";
 // import img03 from "../../public/images/img-03.jpg";
 import img04 from "../../public/images/hero.png";
 
@@ -18,12 +18,10 @@ const About = () => {
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
             <p>
-              I am a talented, ambitious and hardworking developer, with broad skills and experience in computer programming and research, I love to achieve beautiful looking end products of targets set forth. Furthermore, I am adept at handling multiple tasks daily competently, Maintaining a reputation for quality and efficiency in customer satisfaction, communication, and problem resolution.
+              I am a talented,ambitious,driven,hardworking and self-motivated developer with broad skills and experience on software development,I constantly learn and experiment new technologies,techniques and tools. Furthermore, I am adept at handling multiple tasks daily competently, Maintaining a reputation for quality and efficiency in project Management,communication,and problem resolution.
             </p>
-
+                <SectionSubtitle subtitle="Skills" />
             <div className=" d-flex align-items-center gap-5">
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
@@ -73,46 +71,63 @@ const About = () => {
 
             <div className="mt-5">
               <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
+                <Link href="https://github.com/sunday-odum" passHref><a target="_blank">Github</a></Link>
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                <Link href="/cv/odum.pdf" passHref><a target="_blank">Download CV</a></Link>
               </button>
             </div>
           </Col>
 
-          <Col lg="6">
-            <div
-              className={`${classes.about__img__gallery} d-flex gap-4 justify-content-end`}
-            >
-              <div className=" d-flex flex-column mb-2">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img01} alt="about-img" />
-                </div>
+          <Col lg="6" className={`${classes.about__content}`}>
+            <SectionSubtitle subtitle="Tech Stack" />       
 
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img02} alt="about-img" />
-                </div>
+            <div className=" d-flex align-items-center gap-5">
+              <div>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  JavaScript,Reactjs/Nextjs,vuejs
+                </h6>
+
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                  MongoDB,MSQL,Firebase
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                 Tailwind and Material UI
+                </h6>
               </div>
 
-              {/* <div className=" d-flex flex-column mb-3">
-                <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  {/* <Image src={img03} alt="about-img" /> */}
-                {/* </div> */}
+              <div>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                 PHP and Wordpress
+                </h6>
 
-                {/* <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
-                >
-                  <Image src={img04} alt="about-img" />
-                </div>
-              </div> */} 
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                 HTML/CSS/FIGMA
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                 API
+                </h6>
+              </div>
+              
             </div>
           </Col>
         </Row>

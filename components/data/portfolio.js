@@ -46,7 +46,7 @@ const portfolio = [
 
   {
     id: "06",
-    title: "Media App(Youtube Clone)",
+    title: "Video sharing website App",
     img: "/images/portfolio-06.png",
     category: "Web app",
     keyword: ["Reactjs", "MUI" , "API"],

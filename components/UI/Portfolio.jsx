@@ -35,8 +35,8 @@ const Portfolio = () => {
       <Container>
         <Row>
           <Col lg="6" md="6" className="mb-5">
-            <SectionSubtitle subtitle=" My portfolio" />
-            <h4 className="mt-4">Some of my works</h4>
+            <SectionSubtitle subtitle=" My Projects" />
+            <h4 className="mt-4">Accomplishments</h4>
           </Col>
 
           <Col lg="6" md="6">

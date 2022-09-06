@@ -16,15 +16,16 @@ const Hero = () => {
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I&apos;m Sunday Dickson Odum</h2>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h5 className="mb-4">Software Developer</h5>
               <p>
-❖Quality focused IT professional with 4+ years of experience as software developer.
-❖ Proven ability to work with JavaScript Libraries and Frameworks
-❖ Designed and developed custom highly interactive websites/web applications using content management systems and popular MVC frameworks.
-❖ Administering, supporting, troubleshooting and maintaining of computer network for a firm and offices
+❖Quality focused IT professional with 3+ years of experience as software developer.<br/>
+❖ Proven ability to work with JavaScript Libraries and Frameworks.<br/>
+❖ Designed and developed custom highly interactive websites/web applications using JavaScript,Reactjs/Nextjs,MongoDB, and Nodejs.<br/>
+❖ Extensive knowledge in API. <br/>
+❖ Administering, supporting, troubleshooting and maintaining of computer network for a firm and offices.<br/>
 ❖ Maintaining a reputation for quality and efficiency in customer satisfaction, communication, and problem resolution.
               </p>
-              <div className="mt-5">
+              {/* <div className="mt-5">
                 <button className="primary__btn">
                   <Link href="#">Hire me</Link>
                 </button>
@@ -32,7 +33,7 @@ const Hero = () => {
                 <button className="secondary__btn">
                   <Link href="#">Download CV</Link>
                 </button>
-              </div>
+              </div> */}
             </div>
           </Col>
 
@@ -71,7 +72,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Experience</h6>
-                  <h5 className="mb-0">4 Years</h5>
+                  <h5 className="mb-0">3 Years</h5>
                 </div>
               </div>
             </div>
