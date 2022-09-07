@@ -21,27 +21,36 @@ const About = () => {
             <p>
               I am a talented,ambitious,driven,hardworking and self-motivated developer with broad skills and experience on software development,I constantly learn and experiment new technologies,techniques and tools. Furthermore, I am adept at handling multiple tasks daily competently, Maintaining a reputation for quality and efficiency in project Management,communication,and problem resolution.
             </p>
-                <SectionSubtitle subtitle="Skills" />
+                <SectionSubtitle subtitle="Tech Stack" />
             <div className=" d-flex align-items-center gap-5">
               <div>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  JavaScript Libraries and Frameworks
+                  JavaScript<br/>
+                  Reactjs/Nextjs<br/>
+                  Vuejs
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Full Software Development LifeCycle
+                 MongoDB,MSQL
                 </h6>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                 Deadline Adherence
+                 Tailwind<br/>
+                 Material UI.
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line"></i>
+                  </span>
+                Firebase
                 </h6>
               </div>
 
@@ -50,20 +59,22 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                 Database Skills
+                PHP<br/>
+                Wordpress
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                 Critical Thinking
+                 HTML<br/>
+                 CSS
                 </h6>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                 Time Management
+                 GIT
                 </h6>
               </div>
               
@@ -79,54 +90,23 @@ const About = () => {
               </button>
             </div>
           </Col>
-
-          <Col lg="6" className={`${classes.about__content}`}>
-            <SectionSubtitle subtitle="Tech Stack" />       
-
-            <div className=" d-flex align-items-center gap-5">
-              <div>
-                <h6 className=" d-flex align-items-center gap-2 mt-2 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  JavaScript,Reactjs/Nextjs,vuejs
-                </h6>
-
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                  MongoDB,MSQL,Firebase
-                </h6>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                 Tailwind/Material UI
-                </h6>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                 PHP and Wordpress
-                </h6>
-
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                 HTML/CSS/Figma
-                </h6>
-                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
-                  <span className={`${classes.about__icon}`}>
-                    <i className="ri-checkbox-circle-line"></i>
-                  </span>
-                 API
-                </h6>
-              </div>
-              
-            </div>
-          </Col>
+          <Col lg="6" md="6" className={`${classes.service__title}`}>
+            <SectionSubtitle subtitle="Competencies" />
+            <p>
+❖Web Applications Development and Design.<br/>
+❖Full Software Development LifeCycle.<br/>
+❖Database skills.<br/>
+❖	Debugging.<br/>
+❖Time Management.<br/>
+❖Project Management.<br/>
+❖	Systems Integration/Migration.<br/>
+❖Problem Identification/Analysis.<br/>
+❖	Software Installations.<br/>
+❖Systems and Network Upgrades.<br/>
+❖SEO. <br/>
+❖Critical thinking<br/>
+            </p>
+          </Col>        
         </Row>
       </Container>
     </section>

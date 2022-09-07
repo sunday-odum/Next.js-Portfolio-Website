@@ -23,7 +23,6 @@ const Hero = () => {
 ❖ Designed and developed custom highly interactive websites/web applications using JavaScript,Reactjs/Nextjs,MongoDB, and Nodejs.<br/>
 ❖ Extensive knowledge in API. <br/>
 ❖ Administering, supporting, troubleshooting and maintaining of computer network for a firm and offices.<br/>
-❖ Maintaining a reputation for quality and efficiency in customer satisfaction, communication, and problem resolution.
               </p>
               {/* <div className="mt-5">
                 <button className="primary__btn">
