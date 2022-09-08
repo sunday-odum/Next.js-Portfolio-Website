@@ -18,11 +18,11 @@ const Hero = () => {
               <h2 className="mt-3 mb-3">I&apos;m Sunday Dickson Odum</h2>
               <h5 className="mb-4">Software Developer</h5>
               <p>
-❖Quality focused IT professional with 3+ years of experience as software developer.<br/>
+❖Quality focused IT professional with 3+ years of experience as a software developer.<br/>
 ❖ Proven ability to work with JavaScript Libraries and Frameworks.<br/>
 ❖ Designed and developed custom highly interactive websites/web applications using JavaScript,Reactjs/Nextjs,MongoDB, and Nodejs.<br/>
 ❖ Extensive knowledge in API. <br/>
-❖ Administering, supporting, troubleshooting and maintaining of computer network for a firm and offices.<br/>
+❖ Administering, supporting, troubleshooting and maintaining of computer network for firms and offices.<br/>
               </p>
               {/* <div className="mt-5">
                 <button className="primary__btn">
