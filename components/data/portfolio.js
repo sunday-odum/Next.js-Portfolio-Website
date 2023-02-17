@@ -30,7 +30,7 @@ const portfolio = [
     id: "04",
     title: "Real Estate Website",
     img: "/images/portfolio-04.png",
-    category: "Web app",
+    category: "Web Design",
     keyword: ["PHP", "Wordpress"],
     liveUrl: "https://sunvalleyskywayresources.com/",
   },
@@ -39,7 +39,7 @@ const portfolio = [
     id: "05",
     title: "Modern Bank website",
     img: "/images/portfolio-05.png",
-    category: "Web app",
+    category: "Web Design",
     keyword: ["Reactjs", "API", "Tailwind"],
     liveUrl: "https://hobank.netlify.app",
   },
@@ -64,20 +64,20 @@ const portfolio = [
 
   {
     id: "08",
-    title: "Restaurant Website",
+    title: "ChatGPT AI App",
     img: "/images/portfolio-08.png",
-    category: "Web Design",
-    keyword: ["Nextjs", "Web design", "UI-UX"],
-    liveUrl: "https://github.com/sunday-odum/Restaurant",
+    category: "Web app",
+    keyword: ["Reactjs", "expressjs", "open AI"],
+    liveUrl: "https://codax-gamma.vercel.app/",
   },
 
   {
     id: "09",
-    title: "I.T Company Website",
+    title: "Full-stack AI Image Generation App",
     img: "/images/portfolio-09.png",
-    category: "Web Design",
-    keyword: ["Wordpress", "Web design", "UI-UX"],
-    liveUrl: "https://intertechserver.com/",
+    category: "Web app",
+    keyword: ["Reactjs", "Expressjs", "MongoDB", "Nodejs"],
+    liveUrl: "https://dalle-e.vercel.app/",
   },
 ];
 
